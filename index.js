@@ -7,7 +7,7 @@ const error404 = document.querySelector('.not-found');
 
 search.addEventListener('click', () => {
 
-    const APIKey = '';
+    const APIKey = 'coloque o codico da sua chave aqui';
     const city = document.querySelector('.search-box input').value;
     if (city === '')
         return;
